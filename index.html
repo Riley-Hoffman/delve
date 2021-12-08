@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src='https://kit.fontawesome.com/3ac59313ce.js' crossorigin='anonymous'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>API Project</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="tallHeader">
+
+      <div class="flexBox">
+
+        <a href="./index.html">
+          <h1>Delve</h1>
+        </a>
+        <form action="#">
+          <label for="search-input">I need more like:</label>
+          <div class="search-bar">
+            <input type="text" placeholder="Enter movie, show, or music artist" id="search-input">
+            <input type="submit" value="Search">
+          </div>
+        </form>
+        <div class="headerContent">
+          <ul>
+            <li>
+              <i class="fas fa-film"></i>
+            </li>
+            <li>
+              <i class="fas fa-tv"></i>
+            </li>
+            <li>
+              <i class="fas fa-music"></i>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </header>
+
+    <section class="results">
+      <div class="box">
+      </div>
+    </section>
+
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'
+      integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+
+    <footer>
+      <p>Created at <a href="https://junocollege.com/">Juno College</a></p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
